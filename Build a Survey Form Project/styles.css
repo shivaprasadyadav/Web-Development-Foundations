@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #e9e9ff;
+  margin: 0;
+  padding: 20px;
+}
+#title, #description {
+text-align: center;
+}
+
+#survey-form {
+max-width:600px;
+background: white;
+margin: 0 auto;
+padding:30px;
+border-radius: 10px;
+}
+label, p {
+display: block;
+margin:12px 0 5px;
+font-weight: bold;
+}
+input[type="text"], input[type="email"],input[type="number"], select, textarea {
+  width: 100%;
+  padding:10px;
+  border-radius: 5px;
+  border:1px solid #ccc;
+}
+ textarea{ min-height:80px; }
+ #submit {
+   width: 100%;
+   padding:12px;
+   margin-top:20px;
+   background:#4a4ab7;
+   color:white;
+   border:none;
+   border-radius: 5px;
+   font-size:16px;
+ }
