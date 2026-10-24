@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  margin: 0;
+  font-family: Arial, sans-sarif;
+}
+* {
+  box-sizing: border-box;
+}
+
+#navbar {
+  position: fixed;
+  left: 0; 
+  top: 0;
+  width: 260px; height: 100%;
+  border-right: 2px solid gray;
+  padding: 20px;
+}
+#navbar header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.nav-link { display: block; padding: 10px; border-top: 1px solid #ccc; text-decoration: none; color: #333; }
+
+#main-doc { margin-left: 300px; padding: 20px; line-height: 1.6; }
+  code { background: #eee; display: block; padding: 10px; margin: 10px 0; }
+  @media (max-width: 800px) {
+    body { flex-direction: column; }
+    #navbar { position: relative; width: 100%; height: auto; }
+    #main-doc { margin-left: 0; }
+  }
